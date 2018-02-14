@@ -1,0 +1,382 @@
+/* --------------------------------------
+Layout
+-------------------------------------- */
+
+#features{
+  text-align: center;
+}
+#features img{
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.panel-title{
+  font-weight: 700px;
+  font-size: 23px;
+}
+#tab1 h4{
+  margin-top: 20px;
+}
+#tab1 iframe{
+  margin-top: 10px;
+}
+#tab1 p{
+  margin-top: 20px;
+}
+#tab1 small::before{
+  content: "\00a0";
+}
+#tab2{
+  margin-top: 20px;
+}
+#inputMessage{
+  margin-bottom: 15px;
+}
+.portfolio{
+  background-color: #1ABC9C;
+  margin-top: 70px;
+  margin-left: 0;
+  height: 100px;
+}
+.portfolio .main-content{
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: #555;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.portfolio .bold{
+  color: #FFF;
+}
+.portfolio ul{
+  list-style: none;
+  padding-top: 35px;
+  padding-left: 0;
+}
+.portfolio li{
+  display: inline-block;
+  margin-right: 17px;
+  font-size: 20px;
+}
+.portfolio a{
+  color: #FFF;
+}
+.portfolio a:hover{
+  text-decoration: none;
+}
+.portfolio li.dropdown{
+  display: none;
+}
+.menu{
+  margin-top: 50px;
+  margin-left: -22px;
+}
+.menu ul{
+  list-style: none;
+}
+.menu li{
+  border-style: solid;
+  border-color:#F0F0F0;
+  box-sizing: border-box;
+  border-width: 1px;
+  display: inline-block;
+  padding: 15px;
+  margin-right: -5px;
+  margin-left: 0;
+}
+.menu a{
+  padding:40px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #666;
+}
+.menu a:hover{
+  color: #1ABC9C;
+  text-decoration: none;
+}
+.menu #head{
+  background-color: #1ABC9C;
+}
+.menu #head a:hover{
+  color:#FFF;
+}
+.panel p{}
+
+  /*-------------------------------------
+  Typography
+  -------------------------------------- */
+
+  footer{
+    background-color: #38474e;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  footer h3{
+    color: #ffffff;
+  }
+  footer ul{
+    padding: 0;
+  }
+  footer li{
+    list-style: none;
+    line-height: 20px;
+  }
+  footer a{
+    color: #7f98a6;
+  }
+  footer a:hover{
+    color: #CCC;
+    text-decoration: none;
+  }
+  footer p{
+    margin: 20px 0 0 0;
+    color:  #ffffff;
+  }
+  .fa::after{
+    content: content: "\00a0";
+  }
+  .heading{
+    text-align: center;
+  }
+  .subheading{
+    margin-left:0px;
+    font-weight: 500px;
+  }
+
+  /* --------------------------------------
+  Navbar
+  -------------------------------------- */
+  .navbar{
+    background-color: #333;
+  }
+  .navbar-nav li a{
+    color: #ffffff;
+  }
+  .navbar-nav .active a{
+    background-color: #38474e;
+    color: #ffffff;
+  }
+  .navbar-nav li a:hover{
+    color:#1ABC9C;
+  }
+  .navbar-nav a{
+
+  }
+  .dropdown-menu {
+    background-color: #38474e;
+  }
+  .logo{
+    font-size: 20px;
+    line-height: 30px;
+    color:#ffffff;
+    font-weight:600;
+    text-shadow:2px 2px 2px #CC3300;
+    margin-top: 0px;
+    margin-right: 12px;
+  }
+  #searchInput{
+    width: 200px;
+  }
+  .navbar-brand{
+    padding: 6px 10px;
+  }
+  .btn-default{
+    background-color: #38474e;
+  }
+  /* --------------------------------------
+  Carousel
+  -------------------------------------- */
+  #myCarousel{
+    margin-top: 70px;
+  }
+  #myCarousel .item{
+    height: 400px;
+  }
+  .carousel-caption{
+    font-size: 24px;
+  }
+  .carousel-caption h4{
+    font-size: 32px;
+  }
+  .carousel-caption .highlight{
+    color: #1ABC9C;
+  }
+  #slide2{
+    background-image: url('../../images/Chelsea3.jpg');
+
+  }
+  #slide1{
+    background-image: url('../../images/digital.jpg');
+  }
+  #slide3{
+    background-image: url('../../images/digital-book.jpg');
+  }
+  #slide4{
+    background-image: url('../../images/train.jpg');
+  }
+  #slide5{
+    background-image: url('../../images/digital-tunnel-wallpaper.jpg');
+  }
+
+
+
+  /* --------------------------------------
+  Global Styles
+  -------------------------------------- */
+  #alertMe{
+    background-color: #38474e;
+  }
+  .well .page-header{
+    margin-top: 0;
+  }
+  .well .page-header h1{
+    margin-top: 0;
+  }
+  .alert{
+    margin-top: 20px;
+    display: none;
+  }
+  .alert p{
+    font-size: 18px;
+  }
+  .well{
+    margin-top: 20px;
+  }
+  #featuresHeading p,h2{
+    margin-left: 10px;
+  }
+  .panel{
+    margin-top: 20px;
+  }
+  .panel .img-circle{
+    border-radius: 700px;
+  }
+  .tabbable img.thumbnail{
+    margin: 0 20px 10px 0;
+  }
+  .tabbable{
+    margin-top: 20px;
+  }
+
+
+  /* --------------------------------------
+  Media Queries
+  -------------------------------------- */
+
+  /* Portrait & landscape phone */
+  @media (max-width: 320px){
+    #alertMe{
+      margin-bottom: 5px;
+    }
+    .portfolio a.main-content{
+      font-size: 20px;
+      letter-spacing: 0px;
+      padding-left: 10px;
+      padding-top: 35px;
+    }
+  }
+  @media (max-width: 360px){
+    #tab1{
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    #tab2{
+      margin-left: 4px;
+      margin-right: 4px;
+    }
+    .portfolio .main-content{
+      font-size: 25px;
+      letter-spacing: 0px;
+      padding-left: 10px;
+    }
+    .portfolio .dropdown-menu a{
+      font-size: 10px;
+    }
+    .first{
+      height: 350px;
+    }
+  }
+  @media (max-width: 480px) {
+
+  }
+
+  /* Landscape phone to portrait tablet */
+  @media (max-width: 992px){
+    #searchInput{
+      width: 150px;
+    }
+    #features img{
+      width: 200px;
+    }
+
+    .portfolio > .main-list > li{
+      display: none;
+      position: relative;
+    }
+
+    .portfolio li.dropdown{
+      display:block;
+      margin-left:0;
+    }
+    .portfolio .dropdown-menu a{
+      color: #FFF;
+    }
+    .first{
+      height:485px;
+    }
+  }
+  @media (max-width: 768px) {
+    #myCarousel .item{
+      height: 310px;
+    }
+    #slide2{
+      background-image: url('../../images/Chelsea3.jpg');
+
+    }
+    #slide1{
+      background-image: url('../../images/digital.jpg');
+    }
+    #slide3{
+      background-image: url('../../images/digital-book.jpg');
+    }
+    #slide4{
+      background-image: url('../../images/train.jpg');
+    }
+    #slide5{
+      background-image: url('../../images/digital-tunnel-wallpaper.jpg');
+    }
+    .carousel-caption{
+      font-size: 16px;
+    }
+    .carousel-caption h4{
+      font-size: 22px;
+    }
+    .carousel-caption .highlight{
+      color: #1ABC9C;
+    }
+    .portfolio .dropdown-menu a{
+      font-size: 15px;
+    }
+  }
+
+  /* Large desktop */
+  @media (min-width: 1200px) {
+    #myCarousel .item{
+      height: 500px;
+    }
+    #slide2{
+      background-image: url('../../images/Chelsea3.jpg');
+
+    }
+    #slide1{
+      background-image: url('../../images/digital.jpg');
+    }
+    #slide3{
+      background-image: url('../../images/digital-book.jpg');
+    }
+    #slide4{
+      background-image: url('../../images/train.jpg');
+    }
+    #slide5{
+      background-image: url('../../images/digital-tunnel-wallpaper.jpg');
+    }
+  }
